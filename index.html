@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lily LaFleur Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <script src="https://kit.fontawesome.com/a1ca375c10.js" crossorigin="anonymous"></script>
+      <!-- Fonts-->
+    <link href="https:/fonts.googleapis.com/css?family=Source+Code+Pro:400,900
+      |Source+Sans+Pro:300,900&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images\sized-dev-lily.png" alt="text image saying devlily">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- ********** Introduction ********** -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Lily LaFleur</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">fullstack dev</p>
+        <img src="images/fixed image.jpg" alt="a picture of Lily smiling" class="intro__img">
+    </section>
+
+
+    <!-- ********** Skills ********** -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">My Stack</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front-End</h3>
+                <p>
+                    Web Application Development: HTML, CSS, JavaScript, Spring Boot, Vue.js
+                </p>
+            </div>
+            <!--closing service-->
+            <div class="service">
+                <h3>Back-End</h3>
+                <p>
+                    Object-Oriented Programming: Java, Spring Boot, RESTful APIs, MVC.
+                </p>
+            </div>
+            <!--closing service-->
+            <div class="service">
+                <h3>Data</h3>
+                <p>
+                    Database Programming: JDBC, Table Design, SQL, PostgreSQL, E/R diagrams.
+                </p>
+            </div>
+            <!--closing service-->
+        </div>
+        <!--close services-->
+        <a href="#work" class="btn">see my work</a>
+    </section>
+
+
+    <!-- ********** About Me ********** -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Software Developer | Passion for Mentoring | House Plant Enthusiast</p>
+        <div class="about-me__body">
+            <p>
+                My personal philosophy in life is that everything is a learning experience. 
+                Some of my favorite things to learn have been painting, gardening and programming! 
+                I am not afraid to make mistakes, as they are often the most powerful tools in learning. 
+                My enthusiasm for learning stems from my passion for mentoring. This passion has translated over into my 
+                software development, and has even lead to winning an award. In my first ever hackathon, I worked on a 
+                team where I acted in Project Management and Software Developer roles to develop the website 
+                breakingthrough.tech. The website's purpose was to provide recources for marginalized women in tech, 
+                and match them with industry mentors. This website was awarded Cisco's "Best #InclusiveFuture Hack". 
+                After seeing my passion project go live, I knew without a doubt that making my switch to tech was the
+                right path for me.
+            </p>
+            <p>
+                In my previous career as a dental hygienist, I developed many skills that help me today as a software developer. 
+                Some of these skills include time management, effective communication, group collaboration, and attention to detail. 
+                I have a passion for writing clean, testable code and have had so much fun building side projects in Java. 
+                I am looking for a software developer role where I can bring my passions and skills to a team where we can create 
+                impactful projects together. I highly value companies that place an emphasis on diversity and inclusion in the work 
+                place, and I can't wait to get out there and start creating thoughtful solutions to complex problems!
+            </p>
+        </div>
+        <img src="images/plants.jpg" alt="Lily at an apple orchard" class="about-me__img">
+    </section>
+
+
+    <!-- ********** My Work ********** -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my projects</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01: myFarmSimulator -->
+            <a href="#" style="text-decoration: none;" target="_blank" class="portfolio__item">
+                <div class=content_img>
+                    <img src="images/farm800x528.png" alt="screenshot of code" class="portfolio__img">
+                    <div>Farm Simulator</div>
+                </div>    
+            </a>
+
+             <!-- Portfolio item 02: my tenmo -->
+            <a href="https://github.com/lilylaf/myTenmo" style="text-decoration: none;" target="_blank" class="portfolio__item">
+                <div class=content_img>
+                    <img src="images/tenmo800x528.png" alt="screenshot of code" class="portfolio__img">
+                    <div>Tenmo Project</div>
+                </div>
+            </a>
+
+             <!-- Portfolio item 03: my beamootiful cows -->
+            <a href="https://github.com/lilylaf/myBeamootifulCows" style="text-decoration: none;" target="_blank" class="portfolio__item">
+                <div class=content_img>
+                    <img src="images/cow800x528.png" alt="screenshot of" class="portfolio__img">
+                    <div>Beamootiful Cows</div>
+                </div>
+            </a>
+
+             <!-- Portfolio item 04: myVendingMachine -->
+            <a href="https://github.com/lilylaf/myVendingMachine" style="text-decoration: none;" target="_blank" class="portfolio__item">
+                <div class=content_img>
+                    <img src="images/vending800x528.png" alt="" class="portfolio__img">
+                    <div>Vending Machine</div>
+                </div>
+            </a>
+
+             <!-- Portfolio item 05: breaking through -->
+            <a href="https://www.breakingthrough.tech/" style="text-decoration: none;" target="_blank" class="portfolio__item">
+                <div class=content_img>
+                    <img src="images/breaking800x528.png" alt="" class="portfolio__img">
+                    <div>Breaking Through</div>
+                </div>
+            </a>
+
+             <!-- Portfolio item 06: my quiz: coming soon -->
+            <a href="https://github.com/lilylaf/myQuiz" style="text-decoration: none;" target="_blank" class="portfolio__item">
+                <div class=content_img>
+                    <img src="images/coming800x528.png" alt="" class="portfolio__img">
+                    <div>Coming Soon</div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ********** Footer ********** -->
+    <footer class ="footer">
+        <a href="resume.html" class="footer__link">Check Out My Resume</a>
+        <ul class ="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/lilylaf">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://linkedin.com/in/lily-lafleur/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="mailto:lilyannlafleur@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+</html>

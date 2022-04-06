@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+BEGIN:VEVENT
+UID:q7bi@ip-172-31-11-195.us-west-2.compute.internal
+SEQUENCE:0
+DTSTAMP:20220319T003007Z
+DTSTART:20220328T220000Z
+DTEND:20220328T230000Z
+SUMMARY:Interview w/ Antonio Tari
+LOCATION:www.skilledinc.com
+DESCRIPTION:Interview on Skilled w/ Antonio Tari
+ORGANIZER;CN="Skilled":mailto:<hello@skilledinc.com>
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN="Antonio Tari":MAILTO:antoniotari11@gmail
+ .com
+ATTENDEE;ROLE=REQ-PARTICIPANT;CN="Lily LaFleur":MAILTO:lilyannlafleur@gmai
+ l.com
+URL;VALUE=URI:http://www.skilledinc.com/app/interview/13819
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

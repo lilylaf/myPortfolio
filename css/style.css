@@ -368,3 +368,15 @@ nav {
 .social-list__link {
     padding: .5em;
 }
+
+/* ********** Resume ********** */
+.resume {
+    background: var(--clr-light);
+    text-align: center;
+    font-family: var(--ff-primary);
+    color: var(--clr-accent);
+    margin-bottom: 1em;
+}
+.resume > h2 {
+    padding-bottom: 1ex;
+}
